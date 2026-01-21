@@ -1,0 +1,10 @@
+.b{
+  background-image: linear-gradient(to bottom right, blue, red, yellow);  
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.h1{
+    color: white;
+    background-image: linear-gradient(to bottom, green, yellow);
+}

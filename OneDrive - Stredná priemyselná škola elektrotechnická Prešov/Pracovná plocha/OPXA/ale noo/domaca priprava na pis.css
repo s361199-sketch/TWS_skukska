@@ -1,0 +1,40 @@
+P{
+    border: 2px;
+}
+
+.nazovtextu{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.text1{
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+
+}
+
+.text2{
+    padding: 10px;
+    margin: 5px;
+    border: 2px dashed blue;
+}
+
+.text3{
+    padding: 25px;
+    border: solid black;
+
+}
+
+.text4{
+    padding: 40px;
+    border: solid black;
+
+}
+
+.text5{
+    margin: 50px;
+    padding: 30px;
+    border: solid black;
+}

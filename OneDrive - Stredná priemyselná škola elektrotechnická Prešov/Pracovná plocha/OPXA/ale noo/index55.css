@@ -1,0 +1,26 @@
+.obrazok1{
+    display: block;
+    border: solid;
+    margin: auto;
+    width: 400px;
+    border-color: red;
+}
+
+.obrazok2{
+    display: block;
+    border: solid;
+    margin: auto;
+    width: 400px;
+    border-color: red;
+}
+
+.obrazok3{
+    display: block;
+    border: solid;
+    margin: auto;
+    width: 400px;
+    border-color: red;
+}
+body{
+    background-color: aqua;
+}

@@ -1,0 +1,786 @@
+body{
+    background-color: #4b89da;
+}
+
+    
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+table{
+    
+    border: 2px solid black;
+    border-collapse: collapse;
+    height: 450px;
+    width: 1000px;
+    margin: 100px;
+    font-size: 30px;
+}
+
+ td,tr, th{
+    border: 2px solid black;
+    border-collapse: collapse; }
+
+
+    .godiny{
+        background-color: darkgray;
+
+    }
+
+
+.td1{
+    background-color: blue;
+
+}
+
+.td2{
+    background-color: green;
+
+}
+
+.td3{
+    background-color: yellow;
+
+}
+
+.td4{
+    background-color: red;
+
+}
+
+.td5{
+    background-color: hotpink;
+
+}
+
+.td6{
+    background-color: aquamarine;
+
+}
+
+.td7{
+    background-color: cadetblue;
+
+}
+
+.td8{
+    background-color: indigo;
+
+}
+
+.td9{
+    background-color: dodgerblue;
+
+}
+
+.td10{
+    background-color: lightskyblue;
+
+}
+
+.td11{
+    background-color: olivedrab;
+
+}
+
+.td12{
+    background-color: teal;
+
+}
+
+.td13{
+    background-color: crimson;
+
+}
+
+.td14{
+    background-color: darksalmon;
+
+}
+
+.td15{
+    background-color: maroon;
+
+}
+
+.td16{
+    background-color: chartreuse;
+}
+
+.td17{
+    background-color: palegoldenrod;
+}
+
+.td18{
+    background-color: mediumorchid;
+}
+
+
+table{
+   text-align: center;
+    border: 2px solid black;
+    border-collapse: collapse;
+
+}
+
+
+.prechody{
+    padding-top:15px ;
+    padding-bottom:20px ;
+    background-color: #73b1f4;
+    color: #152D40;
+}
+
+.btn:hover{
+    background-color: #D8DFE5;
+
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+
+
+    <div class="prechody" class="btn">
+    <a class="btn" href="index1.html">start</a>
+    <a class="btn" href="tabulka2.html">tabulka</a>
+    <a class="btn" href="formular1.html">formular</a>
+    <a class="btn" href="galeria1.html">galeria</a>
+    <a class="btn" href="zoznam1.html">zoznam</a>   
+    </div>
+
+<div class="obrazky">
+
+    <img src="img1.jpg" alt="">
+    <img src="img2.jpg" alt="">
+    <img src="img3.jpg" alt="">
+    <img src="img4.jpg" alt="">
+
+</div>
+
+
+
+/* GALÉRIA – 2x2, vždy zarovnané */
+.obrazky {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-auto-rows: 100px;
+    gap: 20px;
+
+    justify-content: center;
+    align-content: center;
+
+    width: 100%;
+    margin: 40px auto;
+}
+
+.obrazky img {
+    width: 150px;
+    height: 100px;
+
+    object-fit: cover;
+    display: block;
+    border-radius: 12px;
+}
+
+
+
+
+
+<div class="galeria-box">
+        <img src="download.jpg">
+        <p>Ja</p>
+    </div>
+
+    <div class="galeria-box">
+        <img src="download.jpg">
+        <p>Gym</p>
+    </div>
+
+    <div class="galeria-box">
+        <img src="download.jpg">
+        <p>Krajina ktorú by som chcel navštíviť</p>
+    </div>
+
+    <div class="galeria-box">
+        <img src="download.jpg">
+        <p>Klub za ktorý hrám</p>
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="galeria">
+
+    <div style="
+    display: grid;
+    grid-template-columns: 150px 150px;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 40px;
+    
+">
+
+    <img src="download.jpg" style="width:150px;height:100px;object-fit:cover;">
+    <img src="download.jpg" style="width:150px;height:100px;object-fit:cover;">
+    <img src="download.jpg" style="width:150px;height:100px;object-fit:cover;">
+    <img src="download.jpg" style="width:150px;height:100px;object-fit:cover;">
+
+</div>
+    
+
+</div>
+
+
+
+toto pre pripad v galerii: 
+
+.obrazok-box {
+    background-color: white;
+    padding: 10px 6px;                          /* ⬅️ väčšie biele okolie POZOR MENI VSETKO !!!!!! */
+    border-radius: 20px;
+
+    box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+toto pre pripad do galerie html:
+
+<div class="obrazky">
+    <div class="obrazok-box"><img src="download.jpg"></div>
+    <div class="obrazok-box"><img src="img2.jpg"></div>
+    <div class="obrazok-box"><img src="img3.jpg"></div>
+    <div class="obrazok-box"><img src="img4.jpg"></div>
+</div>
+
+
+
+
+
+Moje meno je Alex Sekerák a toto je stránka o mne.Mám 15 rokov chodím na Strednú priemyselnú školu elektrotechnickú v Prešove. Som spoločenský typ, čo má rád spoločnosť a zábavu. Vo voľnom čase sa rád venujem športom a autám čo ma zaujímajú.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4b89da;
+}
+
+
+h1, h2 {
+    text-align: center;
+}
+
+
+.body-rozvrh {
+    background-color: #4b89da;
+}
+
+.rozvrh-container {
+    width: 1100px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.8);
+}
+
+table {
+    border-collapse: collapse;
+    width: 1000px;
+    height: 450px;
+    font-size: 30px;
+    margin: auto;
+}
+
+td, th, tr {
+    border: 2px solid black;
+}
+
+.godiny {
+    background-color: darkgray;
+}
+
+
+.form-container {
+    width: 420px;
+    margin: 80px auto;
+    background-color: white;
+    padding: 35px;
+    border-radius: 10px;    
+    box-shadow: 0 15px 30px rgba(0,0,0,0.8);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+
+table{
+    
+    border: 2px solid black;
+    border-collapse: collapse;
+    height: 450px;
+    width: 1015px;
+    margin: 20px;
+    font-size: 30px;
+    margin-left: 45px;
+    margin-bottom: 30px;
+}
+
+ td,tr, th{
+    border: 2px solid black;
+    border-collapse: collapse; }
+
+
+.godiny{
+    background-color: #a9b1bc;
+
+}
+
+
+.td1{
+    background-color: blue;
+
+}
+
+.td2{
+    background-color: green;
+
+}
+
+.td3{
+    background-color: yellow;
+
+}
+
+.td4{
+    background-color: red;
+
+}
+
+.td5{
+    background-color: hotpink;
+
+}
+
+.td6{
+    background-color: aquamarine;
+
+}
+
+.td7{
+    background-color: cadetblue;
+
+}
+
+.td8{
+    background-color: indigo;
+
+}
+
+.td9{
+    background-color: dodgerblue;
+
+}
+
+.td10{
+    background-color: lightskyblue;
+
+}
+
+.td11{
+    background-color: olivedrab;
+
+}
+
+.td12{
+    background-color: teal;
+
+}
+
+.td13{
+    background-color: crimson;
+
+}
+
+.td14{
+    background-color: darksalmon;
+
+}
+
+.td15{
+    background-color: maroon;
+
+}
+
+.td16{
+    background-color: chartreuse;
+}
+
+.td17{
+    background-color: palegoldenrod;
+}
+
+.td18{
+    background-color: mediumorchid;
+}
+
+
+table{
+    text-align: center;
+    border: 2px solid black;
+    border-collapse: collapse;
+
+}
+
+
+.prechody{
+    display: flex;
+    justify-content: space-around; 
+    background-color: #73b1f4;
+    padding: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.8);
+    border-radius: 10px;
+    align-items: center;
+}
+
+.btn:hover{
+    background-color: #D8DFE5;
+
+}
+
+
+a{
+    color: black;
+    text-decoration: none; 
+
+}
+
+
+
+.skola-link {
+    text-align: center;
+
+}
+
+.skola-link a {
+    color: #003366; 
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+.skola-link a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+
+
+
+.karta {
+    width: 390px;
+    height: 390px;
+
+    background: whitesmoke;
+    border-radius: 25px;
+
+    border: 3px solid white;
+
+    box-shadow: 0 15px 30px rgba(0,0,0,0.8);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sekcia {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    gap: 40px;               
+    min-height: 80vh;
+}
+
+.text-box {
+    width: 600px;
+    height: 350px;
+}
+
+
+
+
+
+/* ===== ZOZNAMY – 3 STĹPCE ===== */
+
+.zoznamy-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+
+    width: 90%;
+    margin: 50px auto;
+}
+
+.zoznam {
+    background-color: white;
+    padding: 35px;
+    border-radius: 20px;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+
+}
+
+.zoznam h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+
+.obrazky {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* viac do šírky */
+    gap: 120px;                             /* VEĽMI veľké medzery */
+
+    width: 90%;                             /* skoro po okraje */
+    margin: 100px auto;
+}
+
+
+
+.obrazok-box img {
+    width: 260px;                           /* väčší obrázok */
+    height: 230px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+
+
+.obrazok-box {
+    background-color: white;
+
+    width: 290px;
+    height: 260px;          /* ⬅️ rovnaké → štvorec */
+
+    border-radius: 25px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.galeria {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    width: 90%;
+    margin: 80px auto;
+}
+
+.galeria-item {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
+
+.mini-popis {
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 15px;
+    font-size: 14px;
+    max-width: 220px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+
+.galeria-item {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+
+.obrazok-box {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.obrazok-box:hover {
+    transform: scale(1.15);   /* ⬅️ zväčšenie */
+    box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+}
+
+.zoznam ul,.zoznam ol{
+    font-size: 18px;
+}
+
+
+.zoznam:hover {
+    transform: scale(1.15);   /* ⬅️ zväčšenie */
+    box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+}
+
+
+.text-box {
+    width: 600px;
+    height: 350px;
+    padding: 40px;              /* ⬅️ aby text nebol nalepený */
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    /* ⬅️ vertikálne vycentrovanie */
+}
+
+
+.text-box h2 {
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+
+.text-box p {
+    font-size: 20px;            /* ⬅️ väčší text */
+    line-height: 1.6;           /* ⬅️ lepšie čítanie */
+    margin-bottom: 20px;
+    text-align: center;         /* ⬅️ zarovnanie */
+}
+
+
+.logo-img {
+    height: 60px;   
+    width: 60px ;
+    border-radius: 45px;
+}
+
+
+.start-box img {
+    width: 365px;                           
+    height: 365px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,123 @@
+
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+table{
+    
+    border: 2px solid black;
+    border-collapse: collapse;
+    height: 450px;
+    width: 1000px;
+    margin: 100px;
+    font-size: 30px;
+}
+
+ td,tr, th{
+    border: 2px solid black;
+    border-collapse: collapse; }
+
+
+    .godiny{
+        background-color: darkgray;
+
+    }
+
+
+.td1{
+    background-color: blue;
+
+}
+
+.td2{
+    background-color: green;
+
+}
+
+.td3{
+    background-color: yellow;
+
+}
+
+.td4{
+    background-color: red;
+
+}
+
+.td5{
+    background-color: hotpink;
+
+}
+
+.td6{
+    background-color: aquamarine;
+
+}
+
+.td7{
+    background-color: cadetblue;
+
+}
+
+.td8{
+    background-color: indigo;
+
+}
+
+.td9{
+    background-color: dodgerblue;
+
+}
+
+.td10{
+    background-color: lightskyblue;
+
+}
+
+.td11{
+    background-color: olivedrab;
+
+}
+
+.td12{
+    background-color: teal;
+
+}
+
+.td13{
+    background-color: crimson;
+
+}
+
+.td14{
+    background-color: darksalmon;
+
+}
+
+.td15{
+    background-color: maroon;
+
+}
+
+.td16{
+    background-color: chartreuse;
+}
+
+.td17{
+    background-color: palegoldenrod;
+}
+
+.td18{
+    background-color: mediumorchid;
+}
+
+
+table{
+   text-align: center;
+    border: 2px solid black;
+    border-collapse: collapse;
+
+}
+

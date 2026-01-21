@@ -1,0 +1,56 @@
+
+
+
+body{   
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.prihlasovanie{
+    background: white;
+    padding: 50px;
+    border-radius: 25px;
+    text-align: center;
+   
+}
+
+
+label{
+    display: block;
+    text-align: left;
+    margin: 5px;
+    font-size: 15px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+   
+}
+
+button{
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background: blue;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+
+.zabudnuteheslo{
+    display: block;
+    margin-top: 20px;
+    font-size: 15px;
+    color: blue;
+
+}

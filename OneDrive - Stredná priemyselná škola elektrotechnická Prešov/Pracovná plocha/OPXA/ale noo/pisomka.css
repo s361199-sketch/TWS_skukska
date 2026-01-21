@@ -1,0 +1,52 @@
+#test0{background-color: blueviolet;}
+
+
+
+.test1{
+    padding: 10px;
+    margin: 5px;    
+    border: solid black;
+    color: blue;
+}
+
+.test2{
+    padding: 10px;
+    text-align: center;
+    margin: 0px;
+    border: solid black;
+
+}
+
+.test3{
+padding: 50px;
+margin: 50px;
+background-color: beige;
+color: red;
+}
+
+
+.testoo{
+
+    background-color: aqua;
+    color: red;
+}
+.test4{
+margin: 10px;
+padding: 5px;
+border: solid black;
+text-align: center;
+
+
+}
+
+
+table{
+    background-color:orange;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+td, tr, th{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
